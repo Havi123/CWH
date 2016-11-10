@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">chain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="wendu">温度</string>
+    <string name="shidu">湿度</string>
+    <string name="pm">PM</string>
+    <string name="tiwen">体温</string>
+    <string name="sensor">分贝</string>
+    <string name="xsudu">x速度</string>
+    <string name="ysudu">y速度</string>
+    <string name="zsudu">z速度</string>
+    <string name="create_database">新建数据库</string>
+    <string name="add_data">增加数据库</string>
+    
+</resources>

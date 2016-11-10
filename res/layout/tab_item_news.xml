@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_timg" >
+    <LinearLayout 
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        android:layout_marginTop="80dp"
+         >
+	 <ImageView
+	     
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/wendu3" 
+	    android:text="@string/wendu" />
+	 <EditText
+            android:id="@+id/input_wendu"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="number" />
+	 <ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/shidu"
+	    android:text="@string/shidu" />
+	 <EditText
+            android:id="@+id/input_shidu"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp"
+         >
+	 <ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/tiwen6"
+	    android:text="@string/tiwen" />
+	 <EditText
+            android:id="@+id/input_tiwen"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="number" />
+      <ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/fmq"
+	    android:text="@string/sensor" />
+	 <EditText
+            android:id="@+id/input_sensor"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="number" /> 
+    </LinearLayout>  
+    <LinearLayout 
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp"
+         >
+	 <ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/sudu2"
+	    android:text="@string/xsudu" />
+	 <EditText
+            android:id="@+id/input_xsudu"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="number" />
+	
+    </LinearLayout>  
+    <!--  
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         >
+	 <Button
+	    android:id="@+id/ysudu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/ysudu" />
+	 <EditText
+            android:id="@+id/input_ysudu"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="number" />
+	
+    </LinearLayout> 
+    -->>
+    <LinearLayout 
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp"
+         >
+	    <!--
+	 <Button
+	    android:id="@+id/zsudu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/zsudu" />
+	 <EditText
+            android:id="@+id/input_zsudu"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="number" />
+              -->>
+     <ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/bluetooth"
+	     />
+	 <Button
+        android:id="@+id/lianjie_Button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="连接设备" />
+	
+    </LinearLayout> 
+</LinearLayout>
